@@ -1,0 +1,73 @@
+.alarm-main {
+  overflow-x: scroll;
+  height: 1000px;
+}
+
+.alarm-upper {
+  height: 140px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+}
+
+.a-liuxiang-box {
+  flex: 1;
+}
+
+.alarm-lower {
+  margin-top: 20px;
+  height: 720px;
+  background-color: #FFF;
+  text-align: left;
+  padding: 20px;
+}
+
+.alarm-card {
+  text-align: left;
+  height: 100%;
+}
+
+.alarm-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.alarm-text {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.color-text {
+  font-weight: 600;
+  color: royalblue;
+  font-size: 20px;
+}
+
+.alarm-card .ant-card-body {
+  padding: 0 !important;
+  margin-top: 15px;
+}
+
+.alarm-card .ant-card-head-title {
+  font-weight: 600;
+}
+
+.check-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.check-box {
+  height: 50px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.check-word {
+  width: 120px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 16px;
+}

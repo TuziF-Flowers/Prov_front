@@ -1,0 +1,209 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+
+.details {
+  width: 100%;
+  height: 20px;
+  font-weight: 600;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+.commissioner-box {
+  margin-left: 20px;
+}
+
+.flowchart-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.a-desktop-block {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 67px;
+}
+
+.a-desktop-style {
+  word-wrap: break-word;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a-desktop-style .usual-text {
+  width: 80px;
+}
+
+.a-content {
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.b-imputationTask-block {
+  /* flex: 1; */
+  background-color: #e6f4ff;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 2px solid #bfbfbf;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.b-content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-imputationTask-block .details {
+  margin-bottom: 10px;
+}
+
+.b-content {
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /* line-height: 0.5 !important; */
+  color: dimgray !important;
+}
+
+.b-imputationTask-block .ant-card-body {
+  padding: 0px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+  text-align: left;
+}
+
+.b-imputationTask-block .ant-card-head {
+  height: 30px !important;
+  min-height: 30px !important;
+  color: dimgray !important;
+}
+
+.utext {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.c-imputationResult-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.c-imputationResult-block .ant-card-head {
+  min-height: 25px !important;
+  height: 25px !important;
+  color: dimgray !important;
+}
+
+.c-imputationResult-block .ant-card-body {
+  margin-left: 5px;
+  padding: 5px !important;
+  margin-top: 10px;
+  height: 90px;
+}
+
+.c-imputationResult-block .ant-card {
+  line-height: 0.5 !important;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 12px !important;
+}
+
+.c-content {
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.main-text .usual-text {
+  font-size: 12px;
+}
+
+.d-hive-block {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e-fusionTask-block {
+  background-color: #fcffe6;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 2px solid #bfbfbf;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.e-fusionTask-block .ant-card-body {
+  padding: 0px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+
+.e-fusionTask-block .ant-card-head {
+  height: 30px !important;
+  min-height: 30px !important;
+  color: dimgray !important;
+}
+
+.e-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-commission-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-content {
+  height: 100px;
+}
+
+.usual-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.g-commission-block .arrow-line1 {
+  position: absolute;
+  width: 150px;
+}
+
+.extendss {
+  display: flex;
+  flex-direction: row;
+}

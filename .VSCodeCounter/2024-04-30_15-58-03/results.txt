@@ -1,0 +1,177 @@
+Date : 2024-04-30 15:58:03
+Directory : d:\20232024\task\pages\Lineage_front
+Total : 112 files,  46608 codes, 414 comments, 461 blanks, all 47483 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          7 |     34,984 |          0 |          5 |     34,989 |
+| Vue.js     |         45 |      6,468 |        162 |        158 |      6,788 |
+| JavaScript |         20 |      3,912 |        188 |         74 |      4,174 |
+| CSS        |          6 |        844 |         24 |        164 |      1,032 |
+| SCSS       |          3 |        337 |         39 |         57 |        433 |
+| XML        |         29 |         29 |          0 |          0 |         29 |
+| HTML       |          1 |         22 |          1 |          3 |         26 |
+| TypeScript |          1 |         12 |          0 |          0 |         12 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |        112 |     46,608 |        414 |        461 |     47,483 |
+| . (Files)                                                                                          |          6 |     32,356 |          0 |          6 |     32,362 |
+| public                                                                                             |          6 |         27 |          1 |          3 |         31 |
+| src                                                                                                |        100 |     14,225 |        413 |        452 |     15,090 |
+| src (Files)                                                                                        |          2 |         81 |          3 |          5 |         89 |
+| src\assets                                                                                         |         28 |        385 |         62 |         59 |        506 |
+| src\assets (Files)                                                                                 |         24 |         24 |          0 |          0 |         24 |
+| src\assets\js                                                                                      |          1 |         24 |         23 |          2 |         49 |
+| src\assets\scss                                                                                    |          3 |        337 |         39 |         57 |        433 |
+| src\common                                                                                         |          8 |      4,922 |         53 |          7 |      4,982 |
+| src\common\echart                                                                                  |          2 |        551 |          3 |          5 |        559 |
+| src\common\map                                                                                     |          6 |      4,371 |         50 |          2 |      4,423 |
+| src\components                                                                                     |         19 |      3,172 |         86 |         53 |      3,311 |
+| src\components (Files)                                                                             |          1 |         55 |          1 |          3 |         59 |
+| src\components\echarts                                                                             |         14 |      1,678 |         38 |         37 |      1,753 |
+| src\components\echarts (Files)                                                                     |          3 |        261 |          6 |         11 |        278 |
+| src\components\echarts\bottom                                                                      |          4 |        706 |         11 |         13 |        730 |
+| src\components\echarts\bottom\bottomLeftChart                                                      |          2 |        280 |          2 |          4 |        286 |
+| src\components\echarts\bottom\bottomRightChart                                                     |          2 |        426 |          9 |          9 |        444 |
+| src\components\echarts\center                                                                      |          1 |         95 |          2 |          2 |         99 |
+| src\components\echarts\centerLeft                                                                  |          4 |        433 |         18 |          8 |        459 |
+| src\components\echarts\centerLeft\centerLeft1Chart                                                 |          2 |        104 |          0 |          4 |        108 |
+| src\components\echarts\centerLeft\centerLeft2Chart                                                 |          2 |        329 |         18 |          4 |        351 |
+| src\components\echarts\centerRight                                                                 |          2 |        183 |          1 |          3 |        187 |
+| src\components\echarts\centerRight\centerRightChart                                                |          2 |        183 |          1 |          3 |        187 |
+| src\components\echarts\center\centerChartRate                                                      |          1 |         95 |          2 |          2 |         99 |
+| src\components\graph6                                                                              |          4 |      1,439 |         47 |         13 |      1,499 |
+| src\js                                                                                             |          6 |      1,041 |         72 |         41 |      1,154 |
+| src\lib                                                                                            |          1 |          1 |          1 |          1 |          3 |
+| src\router                                                                                         |          1 |         73 |         13 |          6 |         92 |
+| src\style                                                                                          |          6 |        844 |         24 |        164 |      1,032 |
+| src\utils                                                                                          |          4 |        514 |         27 |         20 |        561 |
+| src\views                                                                                          |         25 |      3,192 |         72 |         96 |      3,360 |
+| src\views (Files)                                                                                  |         16 |      2,333 |         55 |         67 |      2,455 |
+| src\views\bigscreen                                                                                |          9 |        859 |         17 |         29 |        905 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                           | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\20232024\task\pages\Lineage_front\.eslintrc.js                                                  | JavaScript |         32 |          0 |          1 |         33 |
+| d:\20232024\task\pages\Lineage_front\babel.config.js                                               | JavaScript |          5 |          0 |          1 |          6 |
+| d:\20232024\task\pages\Lineage_front\data_json.json                                                | JSON       |         72 |          0 |          1 |         73 |
+| d:\20232024\task\pages\Lineage_front\load_json.json                                                | JSON       |          0 |          0 |          1 |          1 |
+| d:\20232024\task\pages\Lineage_front\package-lock.json                                             | JSON       |     32,185 |          0 |          1 |     32,186 |
+| d:\20232024\task\pages\Lineage_front\package.json                                                  | JSON       |         62 |          0 |          1 |         63 |
+| d:\20232024\task\pages\Lineage_front\public\database.svg                                           | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\public\desktop-active.svg                                     | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\public\desktop.svg                                            | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\public\hive.svg                                               | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\public\index.html                                             | HTML       |         22 |          1 |          3 |         26 |
+| d:\20232024\task\pages\Lineage_front\public\weiban.svg                                             | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\App.vue                                                   | Vue.js     |         55 |          1 |          5 |         61 |
+| d:\20232024\task\pages\Lineage_front\src\assets\database-active.svg                                | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\database-error.svg                                 | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\database.svg                                       | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\desktop-active.svg                                 | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\desktop-error.svg                                  | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\desktop.svg                                        | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\fenqu-active.svg                                   | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\hive-active.svg                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\hive-error.svg                                     | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\hive.svg                                           | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\js\china.js                                        | JavaScript |         24 |         23 |          2 |         49 |
+| d:\20232024\task\pages\Lineage_front\src\assets\result-active.svg                                  | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\result-error.svg                                   | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\result.svg                                         | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\scss\_variables.scss                               | SCSS       |         79 |         13 |          8 |        100 |
+| d:\20232024\task\pages\Lineage_front\src\assets\scss\index.scss                                    | SCSS       |        119 |         12 |         16 |        147 |
+| d:\20232024\task\pages\Lineage_front\src\assets\scss\style.scss                                    | SCSS       |        139 |         14 |         33 |        186 |
+| d:\20232024\task\pages\Lineage_front\src\assets\sql-active.svg                                     | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\sql-error.svg                                      | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\sql.svg                                            | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\tool-active.svg                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\upload-active.svg                                  | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\user-active.svg                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\user-error.svg                                     | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\user.svg                                           | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\weiban-active.svg                                  | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\配置-分区配置 (1).svg                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\assets\配置-分区配置 (2).svg                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\20232024\task\pages\Lineage_front\src\common\echart\index.vue                                   | Vue.js     |         61 |          3 |          4 |         68 |
+| d:\20232024\task\pages\Lineage_front\src\common\echart\theme.json                                  | JSON       |        490 |          0 |          1 |        491 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\fujian.js                                      | JavaScript |      2,119 |         23 |          1 |      2,143 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\lines.js                                       | JavaScript |         12 |          0 |          0 |         12 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\points.js                                      | JavaScript |         41 |          4 |          0 |         45 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\putuo.js                                       | JavaScript |         24 |         23 |          1 |         48 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\tuo3.json                                      | JSON       |         79 |          0 |          0 |         79 |
+| d:\20232024\task\pages\Lineage_front\src\common\map\tupuo.json                                     | JSON       |      2,096 |          0 |          0 |      2,096 |
+| d:\20232024\task\pages\Lineage_front\src\components\HelloWorld.vue                                 | Vue.js     |         55 |          1 |          3 |         59 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\FindGenderAge.vue                      | Vue.js     |         99 |          2 |          4 |        105 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\Map.vue                                | Vue.js     |         94 |          2 |          4 |        100 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\TopFiveBar.vue                         | Vue.js     |         68 |          2 |          3 |         73 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\bottom\bottomLeftChart\chart.vue       | Vue.js     |        142 |          1 |          2 |        145 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\bottom\bottomLeftChart\index.vue       | Vue.js     |        138 |          1 |          2 |        141 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\bottom\bottomRightChart\chart.vue      | Vue.js     |        349 |          2 |          3 |        354 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\bottom\bottomRightChart\index.vue      | Vue.js     |         77 |          7 |          6 |         90 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerLeft\centerLeft1Chart\chart.vue  | Vue.js     |         74 |          0 |          2 |         76 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerLeft\centerLeft1Chart\index.vue  | Vue.js     |         30 |          0 |          2 |         32 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerLeft\centerLeft2Chart\chart.vue  | Vue.js     |        268 |         16 |          2 |        286 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerLeft\centerLeft2Chart\index.vue  | Vue.js     |         61 |          2 |          2 |         65 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerRight\centerRightChart\chart.vue | Vue.js     |        129 |          1 |          2 |        132 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\centerRight\centerRightChart\index.vue | Vue.js     |         54 |          0 |          1 |         55 |
+| d:\20232024\task\pages\Lineage_front\src\components\echarts\center\centerChartRate\index.vue       | Vue.js     |         95 |          2 |          2 |         99 |
+| d:\20232024\task\pages\Lineage_front\src\components\graph6\gongxiang.vue                           | Vue.js     |        491 |          3 |          1 |        495 |
+| d:\20232024\task\pages\Lineage_front\src\components\graph6\graph.ts                                | TypeScript |         12 |          0 |          0 |         12 |
+| d:\20232024\task\pages\Lineage_front\src\components\graph6\guiji.vue                               | Vue.js     |        354 |          5 |          1 |        360 |
+| d:\20232024\task\pages\Lineage_front\src\components\graph6\mainTree.vue                            | Vue.js     |        582 |         39 |         11 |        632 |
+| d:\20232024\task\pages\Lineage_front\src\js\alarm.js                                               | JavaScript |        281 |          0 |          2 |        283 |
+| d:\20232024\task\pages\Lineage_front\src\js\flowcharts.js                                          | JavaScript |        310 |         49 |         18 |        377 |
+| d:\20232024\task\pages\Lineage_front\src\js\fusion.js                                              | JavaScript |        150 |          2 |         16 |        168 |
+| d:\20232024\task\pages\Lineage_front\src\js\home.js                                                | JavaScript |        106 |         10 |          0 |        116 |
+| d:\20232024\task\pages\Lineage_front\src\js\imputation.js                                          | JavaScript |        107 |          3 |          1 |        111 |
+| d:\20232024\task\pages\Lineage_front\src\js\reverse.js                                             | JavaScript |         87 |          8 |          4 |         99 |
+| d:\20232024\task\pages\Lineage_front\src\lib\leader-line-min.js                                    | JavaScript |          1 |          1 |          1 |          3 |
+| d:\20232024\task\pages\Lineage_front\src\main.js                                                   | JavaScript |         26 |          2 |          0 |         28 |
+| d:\20232024\task\pages\Lineage_front\src\router\index.js                                           | JavaScript |         73 |         13 |          6 |         92 |
+| d:\20232024\task\pages\Lineage_front\src\style\alarm.css                                           | CSS        |         61 |          0 |         12 |         73 |
+| d:\20232024\task\pages\Lineage_front\src\style\flowcharts.css                                      | CSS        |        173 |          3 |         33 |        209 |
+| d:\20232024\task\pages\Lineage_front\src\style\fusion.css                                          | CSS        |        159 |          5 |         28 |        192 |
+| d:\20232024\task\pages\Lineage_front\src\style\home_index.css                                      | CSS        |        200 |          9 |         45 |        254 |
+| d:\20232024\task\pages\Lineage_front\src\style\imputation.css                                      | CSS        |        193 |          5 |         34 |        232 |
+| d:\20232024\task\pages\Lineage_front\src\style\reverse.css                                         | CSS        |         58 |          2 |         12 |         72 |
+| d:\20232024\task\pages\Lineage_front\src\utils\decisionTree.js                                     | JavaScript |        400 |          6 |         12 |        418 |
+| d:\20232024\task\pages\Lineage_front\src\utils\drawMixin.js                                        | JavaScript |         45 |          8 |          4 |         57 |
+| d:\20232024\task\pages\Lineage_front\src\utils\index.js                                            | JavaScript |         42 |          8 |          2 |         52 |
+| d:\20232024\task\pages\Lineage_front\src\utils\resizeMixin.js                                      | JavaScript |         27 |          5 |          2 |         34 |
+| d:\20232024\task\pages\Lineage_front\src\views\Alarm.vue                                           | Vue.js     |        185 |          0 |          1 |        186 |
+| d:\20232024\task\pages\Lineage_front\src\views\FlowCharts.vue                                      | Vue.js     |        190 |         15 |          2 |        207 |
+| d:\20232024\task\pages\Lineage_front\src\views\Fusion.vue                                          | Vue.js     |        176 |          2 |          1 |        179 |
+| d:\20232024\task\pages\Lineage_front\src\views\GenderAge.vue                                       | Vue.js     |         16 |          1 |          4 |         21 |
+| d:\20232024\task\pages\Lineage_front\src\views\Home.vue                                            | Vue.js     |        296 |          3 |          2 |        301 |
+| d:\20232024\task\pages\Lineage_front\src\views\Imputation.vue                                      | Vue.js     |        130 |          0 |          1 |        131 |
+| d:\20232024\task\pages\Lineage_front\src\views\Layout.vue                                          | Vue.js     |        147 |          5 |          3 |        155 |
+| d:\20232024\task\pages\Lineage_front\src\views\Load.vue                                            | Vue.js     |        177 |          1 |          1 |        179 |
+| d:\20232024\task\pages\Lineage_front\src\views\Province.vue                                        | Vue.js     |         16 |          0 |          4 |         20 |
+| d:\20232024\task\pages\Lineage_front\src\views\Reader.vue                                          | Vue.js     |        557 |         15 |         20 |        592 |
+| d:\20232024\task\pages\Lineage_front\src\views\Reverse.vue                                         | Vue.js     |         87 |          3 |          2 |         92 |
+| d:\20232024\task\pages\Lineage_front\src\views\Search.vue                                          | Vue.js     |          4 |          0 |          1 |          5 |
+| d:\20232024\task\pages\Lineage_front\src\views\TopFive.vue                                         | Vue.js     |         16 |          0 |          4 |         20 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\bottom.vue                                | Vue.js     |         65 |          9 |          6 |         80 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\bottomLeft.vue                            | Vue.js     |         50 |          0 |          3 |         53 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\bottomRight.vue                           | Vue.js     |         57 |          1 |          2 |         60 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\center.vue                                | Vue.js     |        246 |          2 |          3 |        251 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\centerLeft1.vue                           | Vue.js     |        153 |          3 |          4 |        160 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\centerLeft2.vue                           | Vue.js     |         57 |          0 |          2 |         59 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\centerRight1.vue                          | Vue.js     |        124 |          0 |          3 |        127 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\centerRight2.vue                          | Vue.js     |         77 |          0 |          4 |         81 |
+| d:\20232024\task\pages\Lineage_front\src\views\bigscreen\mainFlowCharts.vue                        | Vue.js     |         30 |          2 |          2 |         34 |
+| d:\20232024\task\pages\Lineage_front\src\views\index.vue                                           | Vue.js     |        276 |          9 |         19 |        304 |
+| d:\20232024\task\pages\Lineage_front\src\views\map.vue                                             | Vue.js     |         24 |          1 |          0 |         25 |
+| d:\20232024\task\pages\Lineage_front\src\views\readerlast.vue                                      | Vue.js     |         36 |          0 |          2 |         38 |
+| Total                                                                                              |            |     46,608 |        414 |        461 |     47,483 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,72 @@
+[
+  {
+    "status": 0,
+    "user": "cyx",
+    "table": "student",
+    "command": "select",
+    "sqlQueries": "select * from student",
+    "results": "successfully，数据连通",
+    "size": "51bytes",
+    "entryCnt": "3"
+  },
+  {
+    "status": 1,
+    "user": "yungao",
+    "table": "none",
+    "command": "none",
+    "sqlQueries": "none",
+    "results": "error {用户连接数据库时失败}",
+    "size": "none",
+    "entryCnt": "none"
+  },
+  {
+    "status": 2,
+    "user": "lhl",
+    "table": "student",
+    "command": "select",
+    "sqlQueries": "select * from student",
+    "results": "loading...",
+    "size": "loading...",
+    "entryCnt": "loading..."
+  },
+  {
+    "status": 3,
+    "user": "yzf",
+    "table": "student",
+    "command": "select",
+    "sqlQueries": "select * from student",
+    "results": "error {执行sql时失败}",
+    "size": "none",
+    "entryCnt": "none"
+  },
+  {
+    "status": 4,
+    "user": "wmm",
+    "table": "course",
+    "command": "select",
+    "sqlQueries": "select * from course",
+    "results": "loading",
+    "size": "loading",
+    "entryCnt": "loading"
+  },
+  {
+    "status": 5,
+    "user": "LucyChen",
+    "table": "course",
+    "command": "select",
+    "sqlQueries": "select * from course",
+    "results": "error {获取结果失败}",
+    "size": "none",
+    "entryCnt": "none"
+  },
+  {
+    "status": 6,
+    "user": "cc",
+    "table": "none",
+    "command": "none",
+    "sqlQueries": "none",
+    "results": "loading",
+    "size": "loading",
+    "entryCnt": "loading"
+  }
+]

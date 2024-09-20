@@ -1,0 +1,192 @@
+.main_fusion {
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+  overflow-x: scroll;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.details {
+  width: 100%;
+  height: 20px;
+  font-weight: 600;
+}
+
+.left_fusion {
+  width: 65%;
+  padding: 30px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.right_fusion {
+  width: 35%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.right-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  /* margin-top: 10px; */
+}
+
+.right-lower {
+  width: 100%;
+  height: 661px;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.b-content {
+  height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  /* line-height: 0.5 !important; */
+  color: dimgray !important;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.flowchart-block3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 700px;
+  margin-top: 15px;
+}
+
+.d-hive-block {
+  width: 150px;
+  /* flex: 1; */
+  /* background-color: cadetblue; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e-fusionTask-block {
+  /* flex: 1; */
+  background-color: #fcffe6;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 2px solid #bfbfbf;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.e-fusionTask-block .ant-card-body {
+  padding: 0px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.e-fusionTask-block .ant-card-head {
+  height: 30px !important;
+  min-height: 30px !important;
+  color: dimgray !important;
+}
+
+.e-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-commission-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-content {
+  height: 100px;
+}
+
+.usual-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.c-imputationResult-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 30px;
+}
+
+
+.c-content {
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.c-imputationResult-block .ant-card-head {
+  min-height: 25px !important;
+  height: 25px !important;
+  color: dimgray !important;
+}
+
+.c-imputationResult-block .ant-card-body {
+  margin-left: 5px;
+  padding: 5px !important;
+  margin-top: 10px;
+  height: 90px;
+}
+
+.c-imputationResult-block .ant-card {
+  line-height: 0.5 !important;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 12px !important;
+}
+
+.title-card {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.content-card {
+  font-weight: 600;
+  font-size: 20px;
+  color: dodgerblue;
+}
+
+.upper_cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lower_cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline {
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+.extendss {
+  display: flex;
+  flex-direction: row;
+}

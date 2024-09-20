@@ -1,0 +1,254 @@
+.main-pages {
+  width: 1475px;
+  height: 100%;
+  padding: 10px;
+}
+
+.upper {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 4%;
+  margin-right: 6%;
+}
+
+.A-UserAction-block {
+  flex: 4;
+  display: flex;
+  justify-content: right;
+  /* background-color: aliceblue; */
+}
+
+.B-UserInformation-block {
+  flex: 4;
+  /* background-color: pink; */
+}
+
+.C-HiveOutput-block {
+  flex: 4;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: right;
+  padding-top: 20px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.A-Mysql-block {
+  flex: 2;
+  /* background-color: cornflowerblue; */
+  padding-top: 20px;
+}
+
+.B-Read-block {
+  flex: 2;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.C-Tool-block {
+  flex: 2;
+  /* background-color: darkslateblue; */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.C-upper {
+  display: flex;
+  flex-direction: row;
+}
+
+.C-lower {
+  width: 100%;
+}
+
+.D-Load-block {
+  flex: 2;
+  /* background-color: darkcyan; */
+  padding-top: 40px;
+}
+
+.E-Hive-block {
+  flex: 2;
+  /* background-color: darkorange; */
+  display: flex;
+  flex-direction: column;
+}
+
+.usual-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.user-content {
+  height: 120px;
+}
+
+.user-content .arrow-line {
+  height: 30px;
+}
+
+.ip-content {
+  height: 130px;
+}
+
+.ip-content .arrow-line {
+  height: 60px;
+}
+
+.tool-content {
+  flex: 1;
+}
+
+.C-upper .arrow-line {
+  height: 120px;
+  width: 85px;
+}
+
+.C-lower .arrow-line {
+  height: 110px;
+  width: 100%;
+}
+
+.command-content {
+  margin-top: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.result-content {
+  margin-top: 40px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.command-content .arrow-line {
+  width: 80px;
+}
+
+.result-content .arrow-line {
+  width: 80px;
+}
+
+.command-box {
+  height: 100px;
+  width: 100%;
+  border: 2px solid #bfbfbf;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.text-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.A-upper {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.A-upper .arrow-line {
+  width: 80px;
+}
+
+.A-lower {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.A-lower .arrow-line {
+  width: 150px;
+  height: 100px;
+}
+
+.hive-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.hive-content .arrow-line {
+  position: relative;
+  width: 40px;
+  height: 110px;
+}
+
+.C-HiveOutput-block .command-content {
+  width: 300px;
+}
+
+.C-HiveOutput-block .arrow-line {
+  height: 140px;
+  position: absolute;
+  margin-top: 130px;
+}
+
+.C-HiveOutput-block .command-box {
+  height: 120px;
+}
+
+.custom-steps {
+  width: 300px !important;
+}
+
+
+.ant-steps-dot .ant-steps-item-content,
+.ant-steps-dot.ant-steps-small .ant-steps-item-content {
+  width: 250px !important;
+  text-align: left;
+}
+
+.ant-steps-vertical .ant-steps-item-content {
+  min-height: 35px !important;
+}
+
+.custom-steps .ant-steps-item-title {
+  font-size: 10px;
+  /* 适当调整字号 */
+}
+
+.ant-steps-item-content {
+  height: 30px;
+}
+
+.custom-steps .ant-steps-item-process .ant-steps-item-icon {
+  background-color: green;
+}
+
+.ant-steps-item-active .ant-steps-item-icon>.ant-steps-icon .ant-steps-icon-dot {
+  background: #1890FF !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon>.ant-steps-icon .ant-steps-icon-dot {
+  background: #1890FF !important;
+}
+
+.ant-steps-vertical>.ant-steps-item>.ant-steps-item-container>.ant-steps-item-tail::after {
+  background-color: #1890FF !important;
+}
