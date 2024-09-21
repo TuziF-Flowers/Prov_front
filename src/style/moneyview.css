@@ -1,0 +1,28 @@
+.title-card {
+    font-weight: 600;
+    font-size: 18px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .content-card {
+    font-weight: 600;
+    font-size: 20px;
+    color: dodgerblue;
+    align-items: center;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }

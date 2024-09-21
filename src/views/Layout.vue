@@ -1,25 +1,54 @@
 <template>
   <a-layout id="components-layout-demo-custom-trigger" style="min-height: 100vh">
     <a-layout-sider v-model="collapsed" :trigger="null" collapsible style="position:fixed">
-      <div class="logo">数据溯源</div>
+      <div class="logo">空间安全</div>
       <a-menu theme="dark" :default-open-keys="alwaysOpenKeys" mode="inline"
         style="text-align:left;height:100vh">
         <a-sub-menu key="link">
           <span slot="title">
             <a-icon type="home" />
-            <span>流向可视化</span>
+            <span>资产管理</span>
           </span>
           <a-menu-item key="all-link">
-            <router-link to="/index" :key="$route.path">全局概览</router-link>
-          </a-menu-item>
+            <router-link to="/moneyview" :key="$route.path">资产发现</router-link>
+          </a-menu-item> 
           <a-menu-item key="front-link">
-            <router-link to="/imputation" :key="$route.path">归集任务概览</router-link>
+            <router-link to="/inventory" :key="$route.path">资产盘点</router-link>
           </a-menu-item>
           <a-menu-item key="back-link">
-            <router-link to="/fusion" :key="$route.path">共享任务概览</router-link>
+            <router-link to="/test" :key="$route.path">资产地图</router-link>
           </a-menu-item>
         </a-sub-menu>
-        <a-sub-menu key="warning">
+        <a-sub-menu key="link">
+          <span slot="title">
+            <a-icon type="home" />
+            <span>数据活动可视化</span>
+          </span>
+          <a-menu-item key="all-link">
+            <router-link to="/datastream" :key="$route.path">数据流转</router-link>
+          </a-menu-item>
+          <a-menu-item key="front-link">
+            <router-link to="/dataduizhang" :key="$route.path">数据对账</router-link>
+          </a-menu-item>
+        </a-sub-menu>
+        
+       
+        <a-sub-menu key="money">
+          <span slot="title">
+            <a-icon type="smile" />
+            <span>安全溯源</span>
+          </span>
+          <a-menu-item key="bb">
+            <router-link to="/moneyview">攻击链分析</router-link>
+          </a-menu-item>
+          <a-menu-item key="aa">
+            <router-link to="/flowcharts">异常数据流向溯源</router-link>
+          </a-menu-item>
+          <a-menu-item key="cc">
+            <router-link to="/flowcharts">用户异常行为取证</router-link>
+          </a-menu-item>
+          <a-sub-menu key="warning">
+            
           <span slot="title">
             <a-icon type="warning" />
             <span>异常告警</span>
@@ -31,24 +60,13 @@
             <router-link to="/flowcharts">数据库监控</router-link>
           </a-menu-item>
         </a-sub-menu>
-        <!-- <a-sub-menu key="money">
-          <span slot="title">
-            <a-icon type="smile" />
-            <span>资产概览</span>
-          </span>
-          <a-menu-item key="dd">
-            <router-link to="/alarm">用户资产</router-link>
-          </a-menu-item>
-          <a-menu-item key="cc">
-            <router-link to="/flowcharts">设备资产</router-link>
-          </a-menu-item>
-          <a-menu-item key="bb">
+          <!-- <a-menu-item key="bb">
             <router-link to="/flowcharts">应用资产 </router-link>
           </a-menu-item>
           <a-menu-item key="aa">
             <router-link to="/flowcharts">数据资产</router-link>
-          </a-menu-item>
-        </a-sub-menu> -->
+          </a-menu-item> -->
+        </a-sub-menu> 
       </a-menu>
     </a-layout-sider>
     <a-layout style="margin-left:200px">

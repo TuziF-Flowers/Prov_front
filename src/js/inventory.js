@@ -10,7 +10,7 @@ export default {
       selectedRange: [],
       commissioners: [],
       selected_commissioners: '',
-      levels: ['', '中风险', '低风险'],
+      levels: ['高风险', '中风险', '低风险'],
       scenes: ['任务失败', '任务依赖关系异常', '任务超时', '任务中断', '突发调度量峰值'],
       statuss: ['待处理', '处理中', '已处理'],
       columns: [

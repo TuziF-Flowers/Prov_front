@@ -38,10 +38,36 @@ const routes = [
         name: 'Alarm',
         component: () => import('../views/Alarm.vue')
 
-      }, {
+      },
+      {
         path: 'link',
         name: 'Link',
         component: () => import('../components/graph6/linkTree.vue')
+      },
+      {
+        path: 'moneyview',
+        name: 'Moneyview',
+        component:() => import('../views/Moneyview.vue')
+      },
+      {
+        path: 'inventory',
+        name: 'Inventory',
+        component:() => import('../views/Inventory.vue')
+      },
+      {
+        path: 'test',
+        name: 'Test',
+        component:() => import('../views/Test.vue')
+      },
+      {
+        path: 'datastream',
+        name: 'Datastream',
+        component:() => import('../views/Datastream.vue')
+      },
+      {
+        path: 'dataduizhang',
+        name: 'Dataduizhang',
+        component:() => import('../views/Dataduizhang.vue')
       }
     ]
   },
@@ -71,7 +97,7 @@ const routes = [
   {
     path: '/scatter',
     name: 'GenderAge',
-    // route level code-splitting
+    // route level code-splittingnpm install -g @vue/cli
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/GenderAge.vue')
