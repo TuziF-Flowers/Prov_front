@@ -23,6 +23,6 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 Vue.component('icon', Icon);
-Vue.prototype.$apiBaseUrl = 'http://localhost:8081';
+Vue.prototype.$apiBaseUrl = 'http://127.0.0.1:8081';
 // Vue.prototype.$apiBaseUrl = 'http://10.209.0.239:89';
 //Vue.prototype.$apiBaseUrl = 'http://106.14.30.10:8081';

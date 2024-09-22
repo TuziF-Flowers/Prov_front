@@ -125,10 +125,12 @@
               </a-select>
             </div>
             <div class="check-box">
-              <div class="check-word">是否完成：</div>
-              <a-select v-model="isCompleted" style="width: 100px;" placeholder="请选择...">
-                <a-select-option value="true">已完成</a-select-option>
-                <a-select-option value="false">未完成</a-select-option>
+              <div class="check-word">是否完成</div>
+              <a-select mode="multiple" :dropdownRender="dropdownRender" style="width: 200px;"
+                placeholder="请选择--">
+                <a-select-option v-for="(item,index) in selectedRange" :key="index" :value="item">
+                  {{ item }}
+                </a-select-option>
               </a-select>
             </div>
           </div>
@@ -277,8 +279,8 @@
 </template>
   <script>
   import { DatePicker } from 'ant-design-vue';
-  import alarm from '../js/datastream.js';
-  export default alarm;
+  import datastream from '../js/datastream.js';
+  export default datastream;
   // components: {
   //   [DatePicker.name]: DatePicker
   // }
