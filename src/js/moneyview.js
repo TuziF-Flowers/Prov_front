@@ -12,7 +12,7 @@ export default {
       tableData: [], // 表格数据
       tableHeaders: [], // 表格表头
       selectedRange: [],
-      commissioners: ['应用','用户'],
+      moneyCategories: ['应用','用户','活动','设备','数据'],
       levels: ['一级', '二级'],
       columns: [],
       data: [],
@@ -39,7 +39,7 @@ export default {
   methods: {
       // 根据下拉框选项获取表格数据
       fetchData() {
-        if (this.selectedOption1 == '应用' && this.selectedOption2 == '一级') { 
+        if (this.selectedOption1 == '应用' ) { 
           this.axios.get(`${this.$apiBaseUrl}/api/asset/appfirst`).then((response) => {
             this.columns=[
               {
@@ -61,7 +61,7 @@ export default {
             this.data = response.data;
           });
 
-        } else if (this.selectedOption1 == '应用' && this.selectedOption2 == '二级') {
+        } else if (this.selectedOption1 == '活动' ) {
           this.axios.get(`${this.$apiBaseUrl}/api/asset/activities/manual`).then((response) => {
             this.columns =[
               {
@@ -96,7 +96,7 @@ export default {
             ],
             this.data = response.data;
           });
-        } else if (this.selectedOption1 === '用户' && this.selectedOption2 === '一级') {
+        } else if (this.selectedOption1 === '用户' ) {
           this.axios.get(`${this.$apiBaseUrl}/api/asset/name-phone`).then((response) => {
             this.columns = [
               {
@@ -117,12 +117,6 @@ export default {
             this.data = response.data;
           });
           
-        }else if (this.selectedOption1 === '用户' && this.selectedOption2 === '二级') {
-          this.axios.get(`${this.$apiBaseUrl}/api/asset/name-phone`).then((response) => {
-            this.columns =[];
-            this.data = [];
-          
-          });
         }
         else {
           this.tableData = [];

@@ -1,7 +1,7 @@
 <template>
   <a-layout id="components-layout-demo-custom-trigger" style="min-height: 100vh">
     <a-layout-sider v-model="collapsed" :trigger="null" collapsible style="position:fixed">
-      <div class="logo">空间安全</div>
+      <div class="logo">数据空间安全</div>
       <a-menu theme="dark" :default-open-keys="alwaysOpenKeys" mode="inline"
         style="text-align:left;height:100vh">
         <a-sub-menu key="link">
@@ -24,10 +24,10 @@
             <a-icon type="home" />
             <span>数据活动可视化</span>
           </span>
-          <a-menu-item key="all-link">
-            <router-link to="/datastream" :key="$route.path">数据流转</router-link>
+          <a-menu-item key="stream">
+            <router-link to="/index" :key="$route.path">数据流转</router-link>
           </a-menu-item>
-          <a-menu-item key="front-link">
+          <a-menu-item key="duizhang">
             <router-link to="/dataduizhang" :key="$route.path">数据对账</router-link>
           </a-menu-item>
         </a-sub-menu>
@@ -47,6 +47,7 @@
           <a-menu-item key="cc">
             <router-link to="/flowcharts">用户异常行为取证</router-link>
           </a-menu-item>
+        </a-sub-menu> 
           <a-sub-menu key="warning">
             
           <span slot="title">
@@ -57,7 +58,7 @@
             <router-link to="/alarm">异常监控</router-link>
           </a-menu-item>
           <a-menu-item key="databases">
-            <router-link to="/flowcharts">数据库监控</router-link>
+            <router-link to="">数据库监控</router-link>
           </a-menu-item>
         </a-sub-menu>
           <!-- <a-menu-item key="bb">
@@ -66,7 +67,7 @@
           <a-menu-item key="aa">
             <router-link to="/flowcharts">数据资产</router-link>
           </a-menu-item> -->
-        </a-sub-menu> 
+        
       </a-menu>
     </a-layout-sider>
     <a-layout style="margin-left:200px">
@@ -77,7 +78,7 @@
           <div id="right">
             <a-avatar :src="avatarUrl" />
             <a-dropdown>
-              <a class="ant-dropdown-line" href="#"> cyx</a>
+              <a class="ant-dropdown-line" href="#"> dhu</a>
               <a-menu slot="overlay">
                 <a-menu-item key="profile">Profile</a-menu-item>
                 <a-menu-item key="setting">Setting</a-menu-item>

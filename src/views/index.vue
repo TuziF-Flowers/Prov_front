@@ -34,9 +34,9 @@
             </div>
           </div>
           <div class="d-flex aside-width" style="display:flex;">
-            <div class="react-right mr-3 bg-color-black">
+            <!-- <div class="react-right mr-3 bg-color-black">
               <dv-border-box-2 :color="decorationColor" class="text"> 异常告警</dv-border-box-2>
-            </div>
+            </div> -->
             <div class="react-right mr-4 react-l-s">
               <span class="react-after"></span>
               <span class="text">{{ dateYear }} {{ dateWeek }} {{ dateDay }}</span>
